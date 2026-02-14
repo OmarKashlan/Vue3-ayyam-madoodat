@@ -8,5 +8,5 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
-  base: '/ayyam-madoodat/', // Keep this for your GitHub Pages deployment later
+  base: '/Vue3-ayyam-madoodat/', // Keep this for your GitHub Pages deployment later
 })
