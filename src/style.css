@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Define our custom Ramadan theme colors here */
+@theme {
+  --color-ramadan-dark: #0f172a;
+  --color-ramadan-gold: #fbbf24;
+}
+
+/* Apply the default background and text colors */
+@layer base {
+  body {
+    background-color: var(--color-ramadan-dark);
+    color: #f1f5f9;
+    /* Tailwind's slate-100 */
+  }
+}
